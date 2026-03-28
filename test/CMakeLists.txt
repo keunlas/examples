@@ -13,4 +13,6 @@ endfunction()
  
 add_test_executable(keylogger keylogger.cpp) 
 
+add_test_executable(checkkbd checkkbd.cpp) 
+target_link_libraries(checkkbd PRIVATE udev)
 
