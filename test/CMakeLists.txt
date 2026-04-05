@@ -22,3 +22,4 @@ target_link_libraries(test_jwtcpp PRIVATE crypto ssl)
 
 add_test_executable(test_concurq test_concurq.cpp) 
 add_test_executable(test_concurq2 test_concurq2.cpp) 
+add_test_executable(test_concurq3 test_concurq3.cpp) 
